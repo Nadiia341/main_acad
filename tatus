@@ -1,0 +1,54 @@
+warning: LF will be replaced by CRLF in hw1/index.html.
+The file will have its original line endings in your working directory
+[1mdiff --git a/hw1/index.html b/hw1/index.html[m
+[1mindex 6d51d93..fca9971 100644[m
+[1m--- a/hw1/index.html[m
+[1m+++ b/hw1/index.html[m
+[36m@@ -30,7 +30,45 @@[m
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto atque distinctio vitae aut itaque repellat dignissimos sunt at porro ad, quisquam tempora ipsa incidunt est. Minima dolorem sit maiores corrupti!</p>[m
+   </div>[m
+   <a href="https://www.google.com">ссылка</a>[m
+[31m-  <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo fuga officiis id mollitia blanditiis deleniti eveniet fugit, aspernatur odio! Aliquid atque distinctio sed perspiciatis amet repudiandae dicta voluptatibus veritatis quod.</h2>[m
+[32m+[m[32m  <h2>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Nemo fuga officiis id mollitia <br> blanditiis deleniti eveniet fugit, <br> aspernatur odio! Aliquid atque distinctio sed perspiciatis amet repudiandae dicta voluptatibus veritatis quod.</h2>[m
+[32m+[m[32m  <ul>[m
+[32m+[m[32m    <li>1</li>[m
+[32m+[m[32m    <li>2</li>[m
+[32m+[m[32m  </ul>[m
+[32m+[m[32m  <ul>[m
+[32m+[m[32m    <li></li>[m
+[32m+[m[32m    <li></li>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li></li>[m
+[32m+[m[32m      <li></li>[m
+[32m+[m[32m    </ul>[m
+[32m+[m[32m    <li></li>[m
+[32m+[m[32m    <li></li>[m
+[32m+[m[32m    <li></li>[m
+[32m+[m[32m  </ul>[m
+[32m+[m[32m  <ol>[m
+[32m+[m[32m    <li>1</li>[m
+[32m+[m[32m    <li>2</li>[m
+[32m+[m[32m    <li>3</li>[m
+[32m+[m[32m    <li>4</li>[m
+[32m+[m[32m  </ol>[m
+[32m+[m[32m  <ol>[m
+[32m+[m[32m    <li>1</li>[m
+[32m+[m[32m    <li>2</li>[m
+[32m+[m[32m    <li>3</li>[m
+[32m+[m[32m    <li>4</li>[m
+[32m+[m[32m  </ol>[m
+[32m+[m[32m  <table border="1" height="200" width="400" >[m
+[32m+[m[32m    <thead>Table</thead>[m
+[32m+[m[32m    <tbody>[m
+[32m+[m[32m      <th>1</th>[m
+[32m+[m[32m      <th>2</th>[m
+[32m+[m[32m      <th>3</th>[m
+[32m+[m[32m      <tr><td>1<td>2</td></td></tr>[m
+[32m+[m[32m      <tr><td>1<td>2<td>3<td>4</td></td></td></td></tr>[m
+[32m+[m[32m      <tr><td>1<td>2<td>3</td></td></td></tr>[m
+[32m+[m[32m    </tbody>[m
+[32m+[m[32m  </table>[m
+   <img src="/img/earth.jpg" alt="относительная ссылка">[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
