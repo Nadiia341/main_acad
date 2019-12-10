@@ -54,8 +54,8 @@ body{
 
 }
 
-.topmenu__main li a.topmenu__main--travel:hover.topmenu__content {
-  top: 100px;
+.topmenu__main li a.topmenu__main--travel:hover ~ .topmenu__content {
+  top: 44px;
  
 }
 
@@ -63,7 +63,7 @@ body{
   background: #eeeeee;
   color: #92a1a8;
   position: absolute;
-  /* top: -100px; */
+  top: -100px;
   left: 50%;
   transform:translate(-50%);
   width: 100%;
