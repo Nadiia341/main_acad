@@ -1,0 +1,35 @@
+.footer {
+
+  margin-bottom: 0; 
+  display: block;
+  height: 100px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  word-spacing: inherit;
+  color: #626262;
+  font-family: 'Playfair Display', serif;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1060px;     
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  &__rules a {
+    padding-right: 30px;
+  }
+
+  a svg {
+
+    height: 15px;
+    width: 15px;
+    padding-right: 24px;
+  
+    &:first-child {
+      padding-left: 20px;
+    }
+  }
+}
